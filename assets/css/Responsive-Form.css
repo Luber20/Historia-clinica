@@ -1,0 +1,17 @@
+#formdiv {
+  padding-bottom: 5%; 
+  /* Añade un relleno inferior del 5% del contenedor para proporcionar espacio adicional */
+  
+  margin-left: 14%; 
+  /* Añade un margen izquierdo del 14% del contenedor para centrar el formulario horizontalmente */
+  
+  margin-right: 14%; 
+  /* Añade un margen derecho del 14% del contenedor para centrar el formulario horizontalmente */
+  
+  border-radius: 10.2px; 
+  /* Aplica un borde redondeado de 10.2 píxeles a las esquinas del contenedor */
+  
+  box-shadow: 0 0 10px gray; 
+  /* Aplica una sombra de caja gris alrededor del contenedor, con un desenfoque de 10 píxeles */
+}
+

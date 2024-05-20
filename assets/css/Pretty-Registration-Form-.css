@@ -1,0 +1,101 @@
+/* Estilos para el formulario de registro */
+.register-form form.custom-form {
+  padding: 55px; /* Espaciado interno del formulario */
+  box-sizing: border-box; /* El tamaño total incluye el relleno y el borde */
+  background-color: #ffffff; /* Color de fondo del formulario */
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1); /* Sombra del formulario */
+  font: bold 14px sans-serif; /* Fuente y tamaño del texto */
+  text-align: center; /* Alineación del texto */
+  margin: 50px; /* Margen exterior del formulario */
+  color: #333; /* Color del texto */
+}
+
+/* Estilos para el formulario de registro en dispositivos móviles */
+@media (max-width:400px) {
+  .register-form form.custom-form {
+    padding: 55px 10px; /* Espaciado interno del formulario en dispositivos móviles */
+  }
+}
+
+/* Estilos para el título del formulario */
+.register-form .custom-form h1 {
+  display: inline-block; /* Se muestra como bloque en línea */
+  color: #4c565e; /* Color del texto del título */
+  font-size: 24px; /* Tamaño de fuente del título */
+  font-weight: bold; /* Grosor de la fuente */
+  margin-bottom: 60px; /* Margen inferior del título */
+}
+
+/* Estilos para grupos de elementos del formulario */
+.register-form .custom-form .form-group {
+  margin-bottom: 25px; /* Margen inferior del grupo de elementos */
+}
+
+/* Estilos para la columna de etiquetas */
+.register-form .custom-form .label-column {
+  text-align: right; /* Alineación de texto a la derecha */
+  color: #5F5F5F; /* Color del texto de la etiqueta */
+}
+
+/* Estilos para dispositivos móviles en la columna de etiquetas */
+@media (max-width:768px) {
+  .register-form .custom-form .label-column {
+    text-align: left; /* Alineación de texto a la izquierda en dispositivos móviles */
+  }
+}
+
+/* Estilos para la columna de entrada de datos */
+.register-form .custom-form .input-column {
+  color: #5f5f5f; /* Color del texto de entrada */
+  text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/* Estilos para el campo de entrada de datos */
+.register-form .custom-form .input-column input {
+  color: #5f5f5f; /* Color del texto del campo de entrada */
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08); /* Sombra del campo de entrada */
+  padding: 12px; /* Relleno interno del campo de entrada */
+  border: 1px solid #dbdbdb; /* Borde del campo de entrada */
+  border-radius: 2px; /* Radio de borde del campo de entrada */
+  height: 42px; /* Altura del campo de entrada */
+}
+
+/* Estilos para el menú desplegable */
+.register-form .custom-form .dropdown .dropdown-toggle {
+  background: #fff; /* Fondo del menú desplegable */
+  border: 1px solid #dbdbdb; /* Borde del menú desplegable */
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08); /* Sombra del menú desplegable */
+  color: #333; /* Color del texto del menú desplegable */
+  outline: none; /* No resaltar el menú desplegable al hacer clic */
+}
+
+/* Estilos para la lista del menú desplegable */
+.register-form .custom-form .dropdown ul {
+  background: #fff; /* Fondo de la lista del menú desplegable */
+}
+
+/* Estilos para los elementos de la lista del menú desplegable */
+.register-form .custom-form .dropdown ul li a {
+  background: #fff; /* Fondo de los elementos de la lista del menú desplegable */
+  color: #333; /* Color del texto de los elementos de la lista */
+  opacity: 0.8; /* Opacidad de los elementos de la lista */
+}
+
+/* Estilos para elementos de la lista del menú desplegable al pasar el mouse */
+.register-form .custom-form .dropdown ul li a:hover {
+  opacity: 1; /* Opacidad al pasar el mouse sobre los elementos de la lista */
+}
+
+/* Estilos para el botón de envío del formulario */
+.register-form .custom-form .submit-button {
+  border-radius: 2px; /* Radio de borde del botón */
+  background: var(--bs-secondary); /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  font-weight: bold; /* Grosor de la fuente del botón */
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08); /* Sombra del botón */
+  padding: 14px 22px; /* Relleno interno del botón */
+  border: 0; /* Borde del botón */
+  margin: 30px; /* Margen del botón */
+  outline: none; /* No resaltar el botón al hacer clic */
+}
+

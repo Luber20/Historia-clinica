@@ -1,0 +1,12 @@
+#example {
+  margin-bottom: 0; /* Establece el margen inferior de los elementos con ID "example" a 0 */
+}
+
+#example {
+  margin-bottom: 0; /* Este estilo se repite, lo cual no es necesario ya que el segundo reemplaza al primero */
+}
+
+.btn {
+  margin: 0px 10px; /* Establece el margen superior e inferior a 0 y los márgenes izquierdo y derecho a 10px para elementos con la clase "btn" */
+  margin-bottom: 20px; /* Establece el margen inferior a 20px para elementos con la clase "btn" */
+}

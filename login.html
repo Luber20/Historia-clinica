@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+  <!-- Declaración del tipo de documento y configuración del idioma -->
+  <head>
+    <meta charset="utf-8" />
+    <!-- Configuración del juego de caracteres -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <!-- Configuración del viewport para diseño responsive -->
+    <title>Luber</title>
+    <!-- Título de la página -->
+    <link rel="stylesheet" href="./assets/css/login.css" />
+    <!-- Enlace a la hoja de estilos personalizada para el login -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Preconexión a Google Fonts para mejorar el rendimiento -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Preconexión a Google Fonts con configuración de CORS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Enlace a la fuente Roboto desde Google Fonts -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Enlace a los íconos de Boxicons -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <!-- Enlace a la hoja de estilos de Bootstrap -->
+    <link rel="stylesheet" href="assets/css/Catamaran.css" />
+    <!-- Enlace a la fuente Catamaran -->
+    <link rel="stylesheet" href="assets/css/Lato.css" />
+    <!-- Enlace a la fuente Lato -->
+    <link rel="stylesheet" href="assets/css/Roboto.css" />
+    <!-- Enlace a la fuente Roboto -->
+  </head>
+  <body>
+    <!-- Cuerpo del documento -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-custom navbar-dark">
+      <!-- Barra de navegación -->
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Historias clínicas</a>
+        <!-- Enlace a la página principal -->
+        <button
+          data-bs-toggle="collapse"
+          class="navbar-toggler"
+          data-bs-target="#navbarResponsive"
+        >
+          <span class="visually-hidden">Toggle navigation</span>
+          <!-- Botón para expandir/collapse la navegación -->
+          <span class="navbar-toggler-icon"></span>
+          <!-- Ícono del botón -->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <!-- Lista de elementos de la navegación -->
+            <li class="nav-item">
+              <a class="nav-link" href="lista.html">Pacientes</a>
+              <!-- Enlace a la página de lista de pacientes -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Inicio sesión</a>
+              <!-- Enlace a la página de inicio de sesión -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="section">
+      <!-- Sección principal -->
+      <div class="container-form sign-up">
+        <!-- Contenedor para el formulario de registro -->
+        <div class="welcome-back">
+          <!-- Mensaje de bienvenida -->
+          <div class="message">
+            <img src="./assets/img/login.jpg" alt="Imagen de Bienvenida" />
+            <!-- Imagen de bienvenida -->
+            <h2>Bienvenido</h2>
+            <p>Si ya tienes una cuenta por favor inicia sesion aqui</p>
+            <button class="sign-up-btn">Iniciar Sesion</button>
+            <!-- Botón para cambiar a la vista de inicio de sesión -->
+          </div>
+        </div>
+        <form class="formulario" id="registerForm" action="index.html">
+          <!-- Formulario de registro -->
+          <h2 class="create-account">Crear una cuenta</h2>
+          <p class="cuenta-gratis"></p>
+          <input type="text" placeholder="Nombre" id="nameInput" required />
+          <!-- Campo de texto para el nombre -->
+          <input type="email" placeholder="Email" id="emailInput" required />
+          <!-- Campo de texto para el email -->
+          <input type="password" placeholder="Contraseña" id="passwordInput" />
+          <!-- Campo de texto para la contraseña -->
+          <button type="submit" class="btn btn-light">Registrarse</button>
+          <!-- Botón de envío del formulario de registro -->
+        </form>
+      </div>
+      <div class="container-form sign-in">
+        <!-- Contenedor para el formulario de inicio de sesión -->
+        <form class="formulario" id="loginForm" action="index.html">
+          <!-- Formulario de inicio de sesión -->
+          <h2 class="create-account">Iniciar Sesion</h2>
+          <p class="cuenta-gratis"></p>
+          <input type="email" placeholder="Correo" id="loginEmailInput" />
+          <!-- Campo de texto para el email de inicio de sesión -->
+          <input
+            type="password"
+            placeholder="Contraseña"
+            id="loginPasswordInput"
+          />
+          <!-- Campo de texto para la contraseña de inicio de sesión -->
+          <button type="submit" class="btn btn-light">Iniciar sesión</button>
+          <!-- Botón de envío del formulario de inicio de sesión -->
+        </form>
+        <div class="welcome-back">
+          <!-- Mensaje de bienvenida -->
+          <div class="message">
+            <h2>Bienvenido de nuevo</h2>
+            <p>Registrese aqui</p>
+            <button class="sign-in-btn">Registrarse</button>
+            <!-- Botón para cambiar a la vista de registro -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/login.js"></script>
+    <!-- Enlace al archivo JavaScript personalizado para el login -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Enlace al archivo JavaScript de Bootstrap -->
+  </body>
+</html>

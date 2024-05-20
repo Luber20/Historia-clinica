@@ -1,0 +1,178 @@
+/* Estilo global para todas las etiquetas */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; /* Establece la fuente predeterminada para todo el documento */
+}
+
+/* Estilo para una sección genérica */
+.section {
+  height: 100vh; /* Toma el 100% del alto de la ventana */
+  display: flex; /* Usa el modelo de caja flexible */
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  background-image: url("../img/iman.jpg"); /* Establece una imagen de fondo */
+  background-position: center; /* Centra la imagen de fondo */
+  background-repeat: no-repeat; /* No repite la imagen de fondo */
+  background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
+  color: #fff; /* Color de texto blanco */
+}
+
+/* Estilo para un contenedor de formularios */
+.container-form {
+  width: 90%; /* Ancho del contenedor */
+  height: 90vh; /* Alto del contenedor */
+  display: flex; /* Usa el modelo de caja flexible */
+  justify-content: space-around; /* Distribuye los elementos equitativamente */
+  transition: all 0.5s ease-out; /* Transición suave para cambios */
+}
+
+/* Estilo para la sección de bienvenida */
+.welcome-back {
+  display: flex; /* Usa el modelo de caja flexible */
+  align-items: center; /* Centra verticalmente los elementos */
+  text-align: center; /* Alinea el texto al centro */
+  color: #222222; /* Color de texto oscuro */
+  background-color: #2222229c; /* Color de fondo oscuro con transparencia */
+}
+
+/* Estilo para el mensaje */
+.message {
+  padding: 1rem; /* Espaciado interno */
+  color: white; /* Color de texto blanco */
+  position: relative; /* Posición relativa para el posicionamiento de la imagen */
+}
+
+/* Estilo para la imagen dentro del mensaje */
+.message img {
+  width: 100px; /* Ajusta el tamaño de la imagen según tu diseño */
+  height: auto; /* Para mantener la proporción de la imagen */
+  position: absolute; /* Posición absoluta para ajustarla */
+  top: -80px; /* Ajusta la posición vertical de la imagen */
+  left: 50%; /* Centra horizontalmente la imagen */
+  transform: translateX(-50%); /* Centra horizontalmente la imagen */
+  border-radius: 50%; /* Borde redondo */
+  border: 2px solid white; /* Borde blanco */
+  z-index: 1; /* Para colocar la imagen encima del texto */
+}
+
+/* Estilo para párrafos dentro del mensaje */
+.message p {
+  color: white; /* Cambiar el color del texto a blanco */
+}
+
+/* Estilo para títulos dentro del mensaje */
+.message h2 {
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+
+/* Estilo para botones dentro del mensaje */
+.message button {
+  padding: 1rem;
+  font-weight: 400;
+  background-color: #4a4aee;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  transition: all 0.3s ease-in;
+  color: #fff;
+}
+
+/* Estilo para botones en estado hover */
+.message button:hover {
+  background-color: #6464f8;
+}
+
+/* Estilo para el contenedor del formulario */
+.formulario {
+  width: 400px;
+  padding: 1rem;
+  margin: 2rem;
+  background-color: rgb(51, 51, 51);
+  text-align: center;
+}
+
+/* Estilo para el enlace de creación de cuenta */
+.create-account {
+  padding: 2.7rem 0;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+}
+
+/* Estilo para el icono en el borde */
+.border-icon {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  border: solid thin white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in;
+}
+
+/* Estilo para el icono en estado hover */
+.border-icon:hover {
+  background-color: #4a4aee;
+  cursor: pointer;
+}
+
+/* Estilo para la sección "Cuenta gratis" */
+.cuenta-gratis {
+  padding: 2rem 0;
+}
+
+/* Estilo para los campos de entrada dentro del formulario */
+.formulario input {
+  width: 70%; /* Ancho del campo de entrada */
+  display: block; /* Hace que el elemento sea un bloque */
+  margin: auto; /* Centra horizontalmente el campo de entrada */
+  margin-bottom: 2rem; /* Espaciado inferior */
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Sin borde */
+  border-bottom: white thin solid; /* Borde inferior delgado blanco */
+  text-align: center; /* Alineación del texto al centro */
+  outline: none; /* Sin contorno al seleccionar */
+  padding: 0.2rem 0; /* Espaciado interno */
+  font-size: 0.9rem; /* Tamaño de fuente */
+  color: white; /* Color de texto blanco */
+}
+
+/* Estilo específico para el botón dentro del formulario */
+.formulario input[type="button"] {
+  width: 60%; /* Ancho del botón */
+  margin: auto; /* Centra horizontalmente el botón */
+  border: solid thin white; /* Borde delgado blanco */
+  padding: 0.7rem; /* Espaciado interno del botón */
+  border-radius: 2rem; /* Borde redondeado */
+  background-color: white; /* Color de fondo blanco */
+  font-weight: 600; /* Peso de la fuente */
+  margin-top: 3rem; /* Espaciado superior */
+  font-size: 0.8rem; /* Tamaño de fuente */
+  cursor: pointer; /* Cursor de puntero */
+  color: #222; /* Color de texto oscuro */
+}
+.sign-in {
+  position: absolute; /* Posición absoluta */
+  opacity: 0; /* Opacidad inicial cero */
+  visibility: hidden; /* Oculto inicialmente */
+}
+
+/* Estado activo de la sección de inicio de sesión */
+.sign-in.active {
+  opacity: 1; /* Opacidad completa al activarse */
+  visibility: visible; /* Visible al activarse */
+}
+
+/* Estado activo de la sección de registro */
+.sign-up.active {
+  opacity: 0; /* Opacidad cero al activarse */
+  visibility: hidden; /* Oculto al activarse */
+}

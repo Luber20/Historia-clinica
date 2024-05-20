@@ -1,0 +1,165 @@
+.contact-clean {
+  background: #f1f7fc;
+  /* Color de fondo para la sección de contacto */
+  padding: 80px 0;
+  /* Espaciado superior e inferior */
+}
+
+@media (max-width: 767px) {
+  .contact-clean {
+    padding: 20px 0;
+    /* Ajusta el espaciado para pantallas pequeñas */
+  }
+}
+
+.contact-clean form {
+  max-width: 480px;
+  /* Ancho máximo del formulario */
+  width: 90%;
+  /* Ancho del formulario como porcentaje del contenedor */
+  margin: 0 auto;
+  /* Centra el formulario horizontalmente */
+  background-color: #ffffff;
+  /* Color de fondo del formulario */
+  padding: 40px;
+  /* Espaciado interno del formulario */
+  border-radius: 4px;
+  /* Bordes redondeados del formulario */
+  color: #505e6c;
+  /* Color del texto dentro del formulario */
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  /* Sombra del formulario */
+}
+
+@media (max-width: 767px) {
+  .contact-clean form {
+    padding: 30px;
+    /* Ajusta el espaciado interno para pantallas pequeñas */
+  }
+}
+
+.contact-clean h2 {
+  margin-top: 5px;
+  /* Espaciado superior del título */
+  font-weight: bold;
+  /* Texto en negrita */
+  font-size: 28px;
+  /* Tamaño de fuente del título */
+  margin-bottom: 36px;
+  /* Espaciado inferior del título */
+  color: inherit;
+  /* Hereda el color del contenedor padre */
+}
+
+.contact-clean .form-group:last-child {
+  margin-bottom: 5px;
+  /* Espaciado inferior del último grupo de formulario */
+}
+
+.contact-clean form .form-control {
+  background: #fff;
+  /* Color de fondo del campo de entrada */
+  border: 1px solid #d4d4d4;
+  /* Borde del campo de entrada */
+  border-radius: 2px;
+  /* Bordes redondeados del campo de entrada */
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+  /* Sombra del campo de entrada */
+  outline: none;
+  /* Sin contorno al hacer clic */
+  color: inherit;
+  /* Hereda el color del contenedor padre */
+  padding-left: 12px;
+  /* Espaciado interno a la izquierda */
+  height: 42px;
+  /* Altura del campo de entrada */
+}
+
+.contact-clean form .form-control:focus {
+  border: 1px solid #b2b2b2;
+  /* Color del borde al enfocar el campo de entrada */
+}
+
+.contact-clean form textarea.form-control {
+  min-height: 100px;
+  /* Altura mínima del área de texto */
+  max-height: 260px;
+  /* Altura máxima del área de texto */
+  padding-top: 10px;
+  /* Espaciado interno superior del área de texto */
+  resize: vertical;
+  /* Permite redimensionar verticalmente el área de texto */
+}
+
+.contact-clean form .form-control-feedback {
+  height: 42px;
+  /* Altura del contenedor de feedback */
+  line-height: 42px;
+  /* Altura de la línea para centrar verticalmente el texto */
+}
+
+.contact-clean form .help-block {
+  margin-top: 8px;
+  /* Espaciado superior del bloque de ayuda */
+  font-size: 13px;
+  /* Tamaño de fuente del bloque de ayuda */
+}
+
+.contact-clean form .btn {
+  padding: 16px 32px;
+  /* Espaciado interno del botón */
+  border: none;
+  /* Sin borde */
+  background: none;
+  /* Sin color de fondo */
+  box-shadow: none;
+  /* Sin sombra */
+  text-shadow: none;
+  /* Sin sombra de texto */
+  opacity: 0.9;
+  /* Opacidad del botón */
+  text-transform: uppercase;
+  /* Texto en mayúsculas */
+  font-weight: bold;
+  /* Texto en negrita */
+  font-size: 13px;
+  /* Tamaño de fuente del botón */
+  letter-spacing: 0.4px;
+  /* Espaciado entre letras */
+  line-height: 1;
+  /* Altura de la línea */
+  outline: none !important;
+  /* Sin contorno al hacer clic, importante para sobrescribir otros estilos */
+}
+
+.contact-clean form .btn:hover {
+  opacity: 1;
+  /* Opacidad completa al pasar el cursor sobre el botón */
+}
+
+.contact-clean form .btn:active {
+  transform: translateY(1px);
+  /* Mueve el botón 1px hacia abajo al hacer clic */
+}
+
+.contact-clean form .btn-primary {
+  background-color: #055ada !important;
+  /* Color de fondo del botón primario */
+  margin-top: 15px;
+  /* Espaciado superior del botón primario */
+  color: #fff;
+  /* Color del texto del botón primario */
+}
+
+#formdiv {
+  padding-bottom: 5%;
+  /* Espaciado inferior del div del formulario */
+  margin-left: 14%;
+  /* Margen izquierdo del div del formulario */
+  margin-right: 14%;
+  /* Margen derecho del div del formulario */
+  border-radius: 10.2px;
+  /* Bordes redondeados del div del formulario */
+  box-shadow: 0 0 10px gray;
+  /* Sombra del div del formulario */
+}
